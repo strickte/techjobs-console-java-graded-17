@@ -102,18 +102,6 @@ public class JobData {
                 break;
             }
         }
-//   Attempt#2         for (int i = 0; i < allJobs.size(); i++) {
-//                HashMap<String, String> aJob = allJobs.get(i);
-//                System.out.println(aJob);
-//                for (Map.Entry<String, String> jobListing : aJob.entrySet()) {
-//                    if (jobListing.getValue() == value) {
-//                        jobs.add(jobListing);
-//                    }
-//                }
-//   Attempt#1             if (aJob.containsValue(value)) {
-//                    jobs.add(aJob);
-//                }
-//           }
         return jobs;
     }
 
